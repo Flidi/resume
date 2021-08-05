@@ -1,0 +1,138 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EDEFF2;
+}
+
+ol { 
+    font-weight: bold;
+    margin-left: -25px;
+}
+
+ul { 
+    font-weight: normal;
+    margin-left: -15px;
+}
+
+span {
+    font-weight: normal;
+}
+
+li {
+
+    font-size: 14px;
+    line-height: 24px;
+}
+
+a {
+    color: rgb(0, 0, 0); /* Цвет ссылок */
+   }
+   a:visited {
+    color: #000000; /* Цвет посещенных ссылок */
+   }
+   a:active {
+    color: #ffff00; /* Цвет активных ссылок */
+
+}
+
+img {
+  margin: 50px 10px;
+  /* border: 6px solid #000000; */
+  border-radius: 25px;
+}
+
+
+.first_color_items > ul {
+    color: #FB6D3A;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+    border-radius: 50px;
+}
+
+
+.sidebar_section {
+    background-color: #1E2939;
+    border-radius: 50px 0px 0px 50px;
+    /* position: absolute; */
+ 
+}
+
+.text_sidebar_section {
+    margin: 50px;
+    color: cornsilk;
+
+}
+
+/* .main_content_section {
+     display: flex;
+    flex-direction: column; 
+} */
+
+
+.about_me_profession {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.about_me_section {
+     /* background-color:  rgb(197, 226, 33); */
+    border-radius: 25px; 
+    margin: 0px 50px;
+    padding: 0px 30px 0px 60px;
+    text-align: justify; 
+    
+}
+
+.my_project_section {
+    /* background-color:  rgb(33, 115, 223);
+    border-radius: 25px; */
+    margin: 0px 50px;
+    padding: 0px 30px 0px 60px;
+
+}
+
+.my_work_section {
+    /* background-color:  rgb(111, 90, 207);
+    border-radius: 25px; */
+    margin: 0px 50px;
+    padding: 0px 30px 0px 60px; 
+    
+    
+}
+
+.work {
+    color: #FB6D3A;
+}
+
+.my_education_section {
+    /* background-color:  rgb(29, 199, 37);
+    border-radius: 25px; */
+    margin: 0px 50px;
+    padding: 0px 30px 0px 60px; 
+    
+    
+}
+
+.education {
+    color: #440000;
+}
+
+.tel_and_mail {
+    color: red;
+}
+
+.text_skills {
+    color: cornsilk;
+}
+
+.li_color {
+    font-weight: bold;
+    color: #FB6D3A;
+}
+
